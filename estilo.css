@@ -1,7 +1,33 @@
 body{
     background-color: #DEF2B3;
     color: #002514;   
+    margin: 0;
+    padding: 0;
 }
 h1{
     color: black
+}
+div{
+    background-color: #ffff;
+    padding: 20px;
+    margin: 20px 100px;
+    border-radius: 15px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+.img img{
+    height: 350px;
+    margin-top: -200px;
+    border-radius: 50%;
+    box-shadow: 6px 5px 5px black(0, 0, 0, 0.327);
+}
+.Introducao{
+    margin-top: 200px;
+}
+footer{
+    background-color: white;
+    text-align: center;
+    padding: 10px 0px;
 }
